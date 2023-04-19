@@ -14,8 +14,7 @@ const Contact = () => {
         "service_4okg2ke",
         "template_glxyj2q",
         formRef.current,
-        "_sh4uGBqb6YlO3pw_"
-      )
+        "EJIs74KvepLVa7lNy"      )
       .then(
         (result) => {
           console.log(result.text);
@@ -45,6 +44,12 @@ const Contact = () => {
           </article>
         </div>
         <form ref={formRef} onSubmit={handleSubmit}>
+        <textarea
+            placeholder="Subject"
+            rows="1"
+            name="subject"
+            required
+          ></textarea>
           <input
             type="text"
             placeholder="Your Full Name"
@@ -57,6 +62,7 @@ const Contact = () => {
             name="user_email"
             required
           />
+       
           <textarea
             placeholder="Your message"
             rows="7"
@@ -66,7 +72,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>Thanks, I'll reply Soon:)</span>}
         </form>
       </div>
     </section>
