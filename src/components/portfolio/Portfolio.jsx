@@ -39,7 +39,7 @@ const Portfolio = () => {
         "Landing Page for the Skilled E-learning Platform, built from the UI/UX wireframe to create a seamless experience",
       technologies: "HTML | CSS | Figma | Boostrap",
       link: "https://neon-cassata-ef3438.netlify.app/",
-      github: "https://github.comoyo-tech/skilled_elearning_landing_page",
+      github: "https://github.moyo-tech/skilled_elearning_landing_page",
     },
     {
       id: 3,
@@ -61,7 +61,7 @@ const Portfolio = () => {
       description:
         "Fully responsive website that shows the testimonials of a business, built based on Figma design ",
       technologies: "CSS Grid | HTML ",
-      link: "https://meri-mg.github.io/shelter/pages/main/index.html",
+      link: 'https://prismatic-palmier-e36078.netlify.app/',
       github: "https://github.com/Moyo-tech/frontend-social-proof-section",
     },
     {
@@ -114,8 +114,7 @@ const Portfolio = () => {
         "A mobile application that would help users find roommates and rooms by creating a verified profile, setting preferences and listing advertisements.",
       technologies: "React Native | UI/UX Research | Mobile | Agile ",
       github: "https://github.com/Moyo-tech/Credence",
-      figmalink:
-        "https://www.figma.com/proto/WbET2pgVnHu8t9J5KlBTK2/GRASPA-E-LEARNING-PLATFORM?page-id=0%3A1&node-id=48-2&viewport=227%2C229%2C0.03&scaling=scale-down&starting-point-node-id=48%3A2&show-proto-sidebar=1",
+      figmalink: "https://www.figma.com/proto/Q8F1P3E4atctPsLj3hVpH9/CREDENCE?page-id=0%3A1&node-id=69-15&viewport=855%2C348%2C0.25&scaling=scale-down&starting-point-node-id=69%3A15&show-proto-sidebar=1"
     },
     {
       id: 9,
@@ -126,8 +125,7 @@ const Portfolio = () => {
       description:
         "The Hospital Booking App (Hilto) is a user-friendly platform designed to streamline the process of booking appointments with healthcare providers.",
       technologies: "Flutter | Mobile | Agile ",
-      figmalink:
-        "https://www.figma.com/proto/WbET2pgVnHu8t9J5KlBTK2/GRASPA-E-LEARNING-PLATFORM?page-id=0%3A1&node-id=48-2&viewport=227%2C229%2C0.03&scaling=scale-down&starting-point-node-id=48%3A2&show-proto-sidebar=1",
+      figmalink: "https://www.figma.com/file/6ehQVTaJVACpkkNMZaa2Dq/Patient?node-id=0%3A1&t=dVyv4A3vF5xYA0zq-1",
       github: "https://github.com/mzbhewtee/Mini_project2",
     },
   ];
