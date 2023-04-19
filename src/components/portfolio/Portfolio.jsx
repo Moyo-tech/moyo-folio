@@ -83,7 +83,7 @@ const Portfolio = () => {
       category: "Design",
 
       description:
-        "A mobile application that would help users find roommates and rooms by creating a verified profile, setting preferences and listing advertisements.",
+        "Roomify - A mobile application that help users find roommates and rooms by creating a verified profile, setting preferences and listing advertisements.",
       technologies: "Figma | UI/UX Research",
       figmalink:
         "https://www.figma.com/proto/X0cYmzIshFlwQOr4luwBu4/ROOMIFY-HIGH-FIDELITY-APP?page-id=0%3A1&node-id=2-76&viewport=16%2C119%2C0.11&scaling=scale-down&starting-point-node-id=2%3A76&show-proto-sidebar=1",
@@ -110,8 +110,7 @@ const Portfolio = () => {
       img: IMG8,
       category: "Mobile",
 
-      description:
-        "A mobile application that would help users find roommates and rooms by creating a verified profile, setting preferences and listing advertisements.",
+      description: "Credence is an eco-friendly mobile application that offers small businesses a platform to showcase their products and services, and facilitates sales through the generation of digital receipts instead of paper receipts.",
       technologies: "React Native | UI/UX Research | Mobile | Agile ",
       github: "https://github.com/Moyo-tech/Credence",
       figmalink: "https://www.figma.com/proto/Q8F1P3E4atctPsLj3hVpH9/CREDENCE?page-id=0%3A1&node-id=69-15&viewport=855%2C348%2C0.25&scaling=scale-down&starting-point-node-id=69%3A15&show-proto-sidebar=1"
