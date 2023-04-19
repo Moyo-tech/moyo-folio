@@ -16,38 +16,19 @@ const Testimonials = () => {
     {
       id: 1,
       link: 'https://www.linkedin.com/in/uzairali19/',
-      name: 'Uzair Ali',
-      role: 'Full-Stack Web Developer. JavaScript | Rails | React | Redux. Improving open-source projects, one commit at a time.',
-      test: 'As a developer and a problem solver, I think Meri is a great collaborative partner to have. I met Meri in some basic javascript & react projects and since then she has drastically progressed in her understanding of the development process. She always has a professional environment and has good audio and video quality which makes it easier to communicate with her.',
+      name: 'Kelly Ng Lun',
+      role: 'Skill : Backend | People Leadership | Data',
+      test : "I hired Moyo as an Assistant Venture Coach for the E-Lab program at ALU and Moyo went above and beyond to meet students and her team's expectation. Leveraging her advanced excel skills, she developed an attendance tracker almost overnight. Moyo has the ability to facilitate effectively, get a good command of the class and capture her audience's attention. She is an effective problem solver with a positive attitude and calm demeanour and works well in a fast-paced environment. I have no doubt that Moyo will exceed in whatever endeavour she pursues."
     },
     {
       id: 2,
       link: 'https://www.linkedin.com/in/yishak-wesego/',
-      name: 'Yishak Wesego',
-      role: 'Full-stack developer | Technical Support Engineer at Microverse',
-      test: "It was a pleasure collaborating with Meri on different projects. One of the things that I think is special about her is that she never settles, even after completing the projects she finds other resources and strengthens her knowledge. Collaborating with her is easy and comfortable, it's like working with someone you've known for a long period of time.",
+      name: 'Samuel Segun',
+      role: 'Skill : Frontend | Design',
+      test: "Moyo delivered her work perfectly well and kept to the deadline. She has good knowledge of HTML, CSS and JavaScript. I will definitely hire her again for future projects."
     },
-    {
-      id: 3,
-      link: 'https://www.linkedin.com/in/akuu-khan/',
-      name: 'akbar (Aku) Khan',
-      role: 'Full Stack Developer| Ruby on Rails | PostgreSQL | JavaScript | React | Redux | Html&Css | Python.',
-      test: 'I worked with Meri in the same team and her communication skills are very strong. Her programming skill is one of the bests, given the time frame in the field. She is a good team player.  She will probably fit in most of the companies not only because she\'s a good team worker, but also because she has very good skills and I know she has much more potential to be shown.',
-    },
-    {
-      id: 4,
-      link: 'https://www.linkedin.com/in/isaicespedes/',
-      name: 'Isai Céspedes',
-      role: 'Full-Stack Web Developer. JavaScript | Rails | React | Redux.',
-      test: "I mentored Meri some months ago, and I can say that she is one of those people that you love to work with. She was always interested in what I was trying to teach her, paying attention and always asking questions if something was not clear. When it comes to professional skills, she is really committed to work, always doing her best and going beyond the requirements of the project she's building.",
-    },
-    {
-      id: 5,
-      link: 'https://www.linkedin.com/in/hamzaalitarar/',
-      name: 'Hamza Tarar',
-      role: 'Software Developer',
-      test: "Throughout all our collaborations, Meri has always conducted herself politely and kindly. She comes across as someone that's always willing to help and puts the team ahead of herself. But beneath this, I see a strength and determination to distinguish herself. She's not only someone I highly recommend but is also someone I greatly respect.",
-    },
+   
+   
   ];
   return (
     <section id="testmonials">
@@ -68,6 +49,8 @@ const Testimonials = () => {
             </a>
           </div>
           <h5 className='client__name'>{test.name}</h5>
+          <h5 className='client__name'>{test.role}</h5>
+
           <small className="client__review">{test.test}</small>
         </SwiperSlide>
         ))}

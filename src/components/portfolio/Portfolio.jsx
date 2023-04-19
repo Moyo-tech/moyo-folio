@@ -1,14 +1,17 @@
 import React from "react";
-import IMG1 from "../../assets/bookstore.png";
-import IMG2 from "../../assets/todo.png";
-import IMG3 from "../../assets/shelter.png";
-import IMG4 from "../../assets/fake.png";
-import IMG5 from "../../assets/news.png";
-import IMG6 from "../../assets/math.png";
+import IMG1 from "../../assets/social-media.png";
+import IMG2 from "../../assets/skilled.png";
+import IMG3 from "../../assets/interac.png";
+import IMG4 from "../../assets/social-proof.jpg";
+import IMG5 from "../../assets/edge.png";
+import IMG6 from "../../assets/roomify.png";
+import IMG7 from "../../assets/graspa.png";
+import IMG8 from "../../assets/credence.png";
+import IMG9 from "../../assets/hilto.png";
 
 import "./portfolio.css";
 import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion";
 
 const Portfolio = () => {
   const [category, setCategory] = useState("all");
@@ -16,73 +19,116 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Bookstore",
+      title: "Social Media Dashboard with Theme Switcher",
       img: IMG1,
-      category: "frontend",
+      category: "Web",
 
       description:
-        "BookStore app that allows users to store books and update progress",
-      technologies: "React | Redux | Ruby on Rails",
-      link: "https://melodic-boba-111583.netlify.app/",
-      github: "https://github.com/Meri-MG/bookstore---react",
+        "View analytics for multiple social media platforms (Instagram, LinkedIn, Youtube, Twitter) on this dashboard. Enjoy dark and light modes with animations for a better experience.",
+      technologies: "HTML | CSS | JS | Figma",
+      link: "https://moonlit-biscochitos-c99e7f.netlify.app/",
+      github: "https://github.com/Moyo-tech/social_media_dashboard",
     },
     {
       id: 2,
-      title: "FakeStore",
-      img: IMG4,
-      category: "frontend",
+      title: "Skilled E-learning Platform Landing Page",
+      img: IMG2,
+      category: "Web",
 
       description:
-        "FakeStore app that provides information about available products and their details",
-      technologies: "React | Redux",
-      link: "https://fakestore-metrics.netlify.app/",
-      github: "https://github.com/Meri-MG/Fakestore---react",
+        "Landing Page for the Skilled E-learning Platform, built from the UI/UX wireframe to create a seamless experience",
+      technologies: "HTML | CSS | Figma | Boostrap",
+      link: "https://neon-cassata-ef3438.netlify.app/",
+      github: "https://github.comoyo-tech/skilled_elearning_landing_page",
     },
     {
       id: 3,
-      title: "To-Do-App",
-      category: "frontend",
+      title: "Interactive Rating Component",
+      category: "Web",
 
-      img: IMG2,
-      description: "User friendly app to plan your day and manage tasks",
-      technologies: "JavaScript | Webpack",
-      link: "https://meri-mg.github.io/To-Do-List/dist/",
-      github: "https://github.com/Meri-MG/To-Do-List",
+      img: IMG3,
+      description:
+        "User friendly app to for users to rate products and services",
+      technologies: "JavaScript | HTML | CSS | Figma",
+      link: "https://effervescent-churros-4169b2.netlify.app/",
+      github: "https://github.com/Moyo-tech/Interactive-rating-project",
     },
     {
       id: 4,
-      title: "Shelter",
-      img: IMG3,
-      category: "backend",
+      title: "Landing Page Social Proof",
+      img: IMG4,
+      category: "Web",
       description:
-        "Fully responsive interactive website built based on Figma design",
-      technologies: "JavaScript | CSS",
+        "Fully responsive website that shows the testimonials of a business, built based on Figma design ",
+      technologies: "CSS Grid | HTML ",
       link: "https://meri-mg.github.io/shelter/pages/main/index.html",
-      github: "https://github.com/Meri-MG/shelter",
+      github: "https://github.com/Moyo-tech/frontend-social-proof-section",
     },
     {
       id: 5,
-      title: "World News",
+      title: "Edge-Ledger-Landing-Page",
       img: IMG5,
-      category: "backend",
+      category: "Web",
 
       description:
-        "Fully responsive interactive website built based on Adobe XD design",
-      technologies: "JavaScript | CSS",
-      link: "https://meri-mg.github.io/Unilab-world-news/",
-      github: "https://github.com/Meri-MG/Unilab-world-news",
+        "Fully responsive interactive website Landing Page for an Ecommerce business built based on Adobe XD design",
+      technologies: "HTML | CSS",
+      link: "https://gleaming-quokka-96d2cb.netlify.app/",
+      github: "https://github.com/Moyo-tech/Edge-Ledger-Landing-Page",
     },
     {
       id: 6,
-      title: "Math Resource",
+      title: "Roomify",
       img: IMG6,
-      category: "frontend",
+      category: "Design",
 
       description:
-        "Real-world group project which is still in progress and will provide educational platform for future young developers",
-      technologies: "JavaScript | Scss | Python",
-      link: "https://lukinoo.github.io/math-resource/",
-      github: "https://github.com/lukinoo/math-resource",
+        "A mobile application that would help users find roommates and rooms by creating a verified profile, setting preferences and listing advertisements.",
+      technologies: "Figma | UI/UX Research",
+      figmalink:
+        "https://www.figma.com/proto/X0cYmzIshFlwQOr4luwBu4/ROOMIFY-HIGH-FIDELITY-APP?page-id=0%3A1&node-id=2-76&viewport=16%2C119%2C0.11&scaling=scale-down&starting-point-node-id=2%3A76&show-proto-sidebar=1",
+      uiresearch:
+        "https://drive.google.com/file/d/1FsD9LyBSXCzRbCIEH4zYf6W98hRcbIwx/view?usp=share_link",
+    },
+    {
+      id: 7,
+      title: "Graspa",
+      img: IMG7,
+      category: "Design",
+      description:
+        "Graspa is a cloud-based learning management system designed to provide students with an online learning environment that allows them to access educational content and resources",
+      technologies: "UI Design | UI/UX Research",
+      figmalink:
+        "https://www.figma.com/proto/WbET2pgVnHu8t9J5KlBTK2/GRASPA-E-LEARNING-PLATFORM?page-id=0%3A1&node-id=48-2&viewport=227%2C229%2C0.03&scaling=scale-down&starting-point-node-id=48%3A2&show-proto-sidebar=1",
+
+      uiresearch:
+        "https://drive.google.com/file/d/1XLjKT29_EFT9DgnUNy5LmDDSE3Gg9IXK/view?usp=share_link",
+    },
+    {
+      id: 8,
+      title: "Credence",
+      img: IMG8,
+      category: "Mobile",
+
+      description:
+        "A mobile application that would help users find roommates and rooms by creating a verified profile, setting preferences and listing advertisements.",
+      technologies: "React Native | UI/UX Research | Mobile | Agile ",
+      github: "https://github.com/Moyo-tech/Credence",
+      figmalink:
+        "https://www.figma.com/proto/WbET2pgVnHu8t9J5KlBTK2/GRASPA-E-LEARNING-PLATFORM?page-id=0%3A1&node-id=48-2&viewport=227%2C229%2C0.03&scaling=scale-down&starting-point-node-id=48%3A2&show-proto-sidebar=1",
+    },
+    {
+      id: 9,
+      title: "Hilto",
+      img: IMG9,
+      category: "Mobile",
+
+      description:
+        "The Hospital Booking App (Hilto) is a user-friendly platform designed to streamline the process of booking appointments with healthcare providers.",
+      technologies: "Flutter | Mobile | Agile ",
+      figmalink:
+        "https://www.figma.com/proto/WbET2pgVnHu8t9J5KlBTK2/GRASPA-E-LEARNING-PLATFORM?page-id=0%3A1&node-id=48-2&viewport=227%2C229%2C0.03&scaling=scale-down&starting-point-node-id=48%3A2&show-proto-sidebar=1",
+      github: "https://github.com/mzbhewtee/Mini_project2",
     },
   ];
   const handleCategoryClick = (newCategory) => {
@@ -103,53 +149,97 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-          <div className="portfolio__filters">
-          <button onClick={() => handleCategoryClick('all')} className={category === 'all' ? 'active' : ''}>All</button>
-          <button onClick={() => handleCategoryClick('frontend')} className={category === 'frontend' ? 'active' : ''}>Frontend</button>
-          <button onClick={() => handleCategoryClick('backend')} className={category === 'backend' ? 'active' : ''}>Backend</button>
-        </div>
-        <AnimatePresence>
-
-      <motion.div   
-        layout
-        initial={{ opacity: 0, y: 50 }}
+      <div className="portfolio__filters">
+        <button
+          onClick={() => handleCategoryClick("all")}
+          className={category === "all" ? "active" : ""}
+        >
+          All
+        </button>
+        <button
+          onClick={() => handleCategoryClick("Web")}
+          className={category === "Web" ? "active" : ""}
+        >
+          Web
+        </button>
+        <button
+          onClick={() => handleCategoryClick("Mobile")}
+          className={category === "Mobile" ? "active" : ""}
+        >
+          Mobile
+        </button>
+        <button
+          onClick={() => handleCategoryClick("Design")}
+          className={category === "Design" ? "active" : ""}
+        >
+          Design
+        </button>
+      </div>
+      <AnimatePresence>
+        <motion.div
+          layout
+          initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 50 }}className="container portfolio__container">
-    
+          exit={{ opacity: 0, y: 50 }}
+          className="container portfolio__container"
+        >
+          {projectsToShow.map((pro) => (
+            <article className="portfolio__item" key={pro.id}>
+              <div className="portfolio__item-image">
+                <img src={pro.img} alt={pro.title} />
+              </div>
+              <div className="portfolio__item-content">
+                <h3>{pro.title}</h3>
+                <p>{pro.description}</p>
+                <p>{pro.technologies}</p>
+              </div>
+              <div className="portfolio__item-cta">
+                {pro.hasOwnProperty("github") && (
+                  <a
+                    href={pro.github}
+                    target="_blank"
+                    className="btn"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+                )}
 
-        {projectsToShow.map((pro) => (
-          <article className="portfolio__item" key={pro.id}>
-            <div className="portfolio__item-image">
-              <img src={pro.img} alt={pro.title} />
-            </div>
-            <div className="portfolio__item-content">
-              <h3>{pro.title}</h3>
-              <p>{pro.description}</p>
-              <p>{pro.technologies}</p>
-            </div>
-            <div className="portfolio__item-cta">
-              <a
-                href={pro.github}
-                target="_blank"
-                className="btn"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
-              <a
-                href={pro.link}
-                target="_blank"
-                className="btn btn-primary"
-                rel="noreferrer"
-              >
-                Visit Website
-              </a>
-            </div>
-          </article>
-        ))}
-      </motion.div>
+                {pro.hasOwnProperty("uiresearch") && (
+                  <a
+                    href={pro.uiresearch}
+                    target="_blank"
+                    className="btn"
+                    rel="noreferrer"
+                  >
+                    UI Research
+                  </a>
+                )}
+                {pro.hasOwnProperty("figmalink") && (
+                  <a
+                    href={pro.figmalink}
+                    target="_blank"
+                    className="btn btn-primary"
+                    rel="noreferrer"
+                  >
+                    Figma Link
+                  </a>
+                )}
+                {pro.hasOwnProperty("link") && (
+                  <a
+                    href={pro.link}
+                    target="_blank"
+                    className="btn btn-primary"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                )}
+              </div>
+            </article>
+          ))}
+        </motion.div>
       </AnimatePresence>
-
     </section>
   );
 };

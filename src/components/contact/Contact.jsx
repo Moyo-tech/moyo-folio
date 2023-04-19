@@ -1,7 +1,7 @@
-import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
-import { MdOutlineEmail } from 'react-icons/md';
-import './contact.css';
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import { MdOutlineEmail } from "react-icons/md";
+import "./contact.css";
 
 const Contact = () => {
   const [message, setMessage] = useState(false);
@@ -11,10 +11,10 @@ const Contact = () => {
     setMessage(true);
     emailjs
       .sendForm(
-        'service_k2qawqh',
-        'template_c6rkpn6',
+        "service_4okg2ke",
+        "template_glxyj2q",
         formRef.current,
-        'X7K7ebhIeOy3YwHki'
+        "_sh4uGBqb6YlO3pw_"
       )
       .then(
         (result) => {
