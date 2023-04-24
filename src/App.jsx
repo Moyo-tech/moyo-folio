@@ -7,19 +7,31 @@ import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Topbar from './components/topbar/Topbar';
-
+import Fade from 'react-reveal/Fade';
+import ParticlesBackground from './components/ParticlesBackgrounnd';
 
 const App = () => {
   return (
     <>
+    <ParticlesBackground/>
       <Header />
       <Topbar />
-      <Intro />
-      <Experience />
-      <Portfolio />
-      <Testimonials />
-      <Contact />
-      <Footer />
+      <Fade top distance = "10%" duration={1500}>
+        <Intro />
+      </Fade>
+      <Fade top distance = "10%" duration={1500}>
+        <Experience />
+      </Fade>
+      <Fade top distance = "10%" duration={1500}>
+        <Portfolio />
+      </Fade>
+      <Fade top distance = "10%" duration={1500}>
+        <Testimonials />
+      </Fade>
+      <Fade top distance = "10%" duration={1500}>
+        <Contact/>
+        <Footer/>
+      </Fade>
     </>
   )
 }

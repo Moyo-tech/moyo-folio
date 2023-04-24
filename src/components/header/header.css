@@ -25,6 +25,7 @@ header {
   position: absolute;
   left: 5rem;
   bottom: 1rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .header__socials::after {
@@ -33,6 +34,40 @@ header {
   height: 2rem;
   background: var(--color-primary);
 }
+.text-type {
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 15px;
+}
+.gradient-text {
+  font-size: clamp(2.8rem, 1.5vw, 3rem);
+  font-weight: bold;
+  margin: 5px;
+  background: linear-gradient(
+    to right,
+    #7953cd 20%,
+    #00affa 30%,
+    #0190cd 70%,
+    #764ada 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 2s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
 
 .scroll__down {
   position: absolute;
@@ -47,6 +82,7 @@ header {
 .scroll__down:hover {
   transform: rotate(90deg) translateY(5px);
 }
+
 
 
 @media screen and (max-width: 1024px){
