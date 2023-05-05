@@ -13,8 +13,12 @@ footer a {
 .footer__logo {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     display: inline-block;
+}
+.footer__logo:hover{
+        color: #FF6489;
+
 }
 
 .permalinks {
@@ -23,13 +27,18 @@ footer a {
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
+    
+}
+.permalinks a:hover{
+    color: #FF6489;
+
 }
 
 .footer__socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .footer__socials a {
@@ -48,7 +57,6 @@ footer a {
 }
 
 .footer__copyright {
-    margin-bottom: 4rem;
     color: var(--color-bg);
 }
   

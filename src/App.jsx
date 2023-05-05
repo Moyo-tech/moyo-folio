@@ -16,7 +16,7 @@ const App = () => {
     <ParticlesBackground/>
       <Header />
       <Topbar />
-      <Fade top distance = "10%" duration={1500}>
+      <Fade top distance = "5%" duration={1500}>
         <Intro />
       </Fade>
       <Fade top distance = "10%" duration={1500}>

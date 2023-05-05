@@ -28,7 +28,6 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
       <h5>
         Please provide a valid email :)
       </h5>

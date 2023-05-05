@@ -18,6 +18,7 @@ header {
 }
 
 .header__socials {
+  font-size: 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,12 +36,13 @@ header {
   background: var(--color-primary);
 }
 .text-type {
+  font-family: "Open Sans", sans-serif;
   color: whitesmoke;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
 }
 .gradient-text {
-  font-size: clamp(2.8rem, 1.5vw, 3rem);
+  font-size: 4rem;
   font-weight: bold;
   margin: 5px;
   background: linear-gradient(

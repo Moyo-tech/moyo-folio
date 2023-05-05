@@ -15,14 +15,14 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      link: 'https://www.linkedin.com/in/uzairali19/',
+      link: 'https://www.linkedin.com/in/kellynl/',
       name: 'Kelly Ng Lun',
       role: 'Skill : Backend | People Leadership | Data',
       test : "I hired Moyo as an Assistant Venture Coach for the E-Lab program at ALU and Moyo went above and beyond to meet students and her team's expectation. Leveraging her advanced excel skills, she developed an attendance tracker almost overnight. Moyo has the ability to facilitate effectively, get a good command of the class and capture her audience's attention. She is an effective problem solver with a positive attitude and calm demeanour and works well in a fast-paced environment. I have no doubt that Moyo will exceed in whatever endeavour she pursues."
     },
     {
       id: 2,
-      link: 'https://www.linkedin.com/in/yishak-wesego/',
+      link: 'https://www.linkedin.com/in/samuelweke/',
       name: 'Samuel Segun',
       role: 'Skill : Frontend | Design',
       test: "Moyo delivered her work perfectly well and kept to the deadline. She has good knowledge of HTML, CSS and JavaScript. I will definitely hire her again for future projects."
@@ -32,7 +32,6 @@ const Testimonials = () => {
   ];
   return (
     <section id="testmonials">
-      <h5>Feedback from my peers</h5>
       <h2>Testimonials</h2>
       <Swiper 
         className="container testimonials__container"

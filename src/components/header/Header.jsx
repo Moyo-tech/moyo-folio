@@ -8,12 +8,12 @@ const Header = () => {
   return (
     <header id="home">
       <div className="container header__container">
-        <h5>Hello, I am <span  style={{fontSize: '2em'}}>👋</span></h5>
+        <h5 style={{fontSize: '1.5rem'}}>Hello, I am <span>👋</span></h5>
         <h1 className="gradient-text">Moyosore Weke</h1>
         <ReactTyped
           strings={[
-            "Skilled Frontend Developer who creates Contemporary Web  Interfaces",
-            "Skilled Frontend Developer who creates Contemporary Mobile Interfaces",
+            "Frontend Engineer Specializing in Building Exceptional Digital Experiences.",
+            "Frontend Engineer Specializing in Designing Exceptional Digital Experiences",
           ]}
           typeSpeed={50}
           backSpeed={50}

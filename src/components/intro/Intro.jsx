@@ -7,7 +7,6 @@ import './intro.css';
 const Intro = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
@@ -20,7 +19,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1 year</small>
+              <small>1+ year</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -28,10 +27,9 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-          <p>Hey there! I'm Moyo a frontend developer <span style={{color: "#64ffda"}}>(I like to go under UI Engineering because I design and build )</span> who loves crafting solid and scalable products with killer user experiences. My passion lies in building web applications that not only look great, but perform exceptionally well too.
+<p>Hello, I'm Moyo, a highly skilled Frontend Engineer with a passion for designing and building exceptional web applications. With expertise in various frontend technologies and frameworks such as HTML, CSS, JavaScript, React, Vue, and Angular, I specialize in delivering solid, scalable, and intuitive frontend solutions that enhance user experiences.
 <br></br><br></br>
-
-Right now, I'm open to frontend internship roles and would love to gain more hands-on experience in the industry. There's nothing quite like the thrill of taking a project from concept to completion, and I'm excited to continue building my skills and learning from experienced developers. Whether you're looking for a quick one-off project or something more long-term, I'm your go-to guy for all things frontend. So let's chat and see what we can create together!</p>
+Currently, I am seeking a Frontend Engineer role to further hone my skills and gain more hands-on experience in the industry. My ability to transform complex designs into seamless and functional web applications has earned me a reputation as a go-to person for frontend solutions. Whether you're looking for a quick one-off project or something more long-term, I am confident that my skills and experience make me the ideal candidate to help bring your web applications to life. Let's connect and explore how we can work together to create exceptional digital experiences for your users. </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
 
         </div>
