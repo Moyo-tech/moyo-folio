@@ -86,7 +86,7 @@ const ParticlesBackaground = () => {
         easing: "ease-out-quad",
         factor: 1,
         maxSpeed: 50,
-        speed: 1
+        speed: 1,
       },
       bounce: {
         distance: 200
@@ -169,7 +169,7 @@ const ParticlesBackaground = () => {
             outModes: {
               default: "destroy"
             },
-            speed: 2
+            speed: 1
           },
           size: {
             value: 5,

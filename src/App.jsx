@@ -22,9 +22,7 @@ const App = () => {
       <Fade top distance = "10%" duration={1500}>
         <Experience />
       </Fade>
-      <Fade top distance = "10%" duration={1500}>
         <Portfolio />
-      </Fade>
       <Fade top distance = "10%" duration={1500}>
         <Testimonials />
       </Fade>
