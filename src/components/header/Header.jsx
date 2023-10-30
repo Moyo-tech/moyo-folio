@@ -12,8 +12,8 @@ const Header = () => {
         <h1 className="gradient-text">Moyosore Weke</h1>
         <ReactTyped
           strings={[
-            "Frontend Engineer Specializing in Building Exceptional Digital Experiences.",
-            "Frontend Engineer Specializing in Designing Exceptional Digital Experiences",
+            "Software Engineer Specializing in Building Exceptional Digital Experiences.",
+            "Software Engineer Specializing in Designing Exceptional Digital Experiences",
           ]}
           typeSpeed={50}
           backSpeed={50}

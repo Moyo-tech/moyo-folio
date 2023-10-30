@@ -18,6 +18,46 @@ const Portfolio = () => {
   const [filteredProjects, setFilteredProjects] = useState([]);
   const soloProjects = [
     {
+      id: 7,
+      title: "Graspa",
+      img: IMG7,
+      category: "Design",
+      description:
+        "Graspa is a cloud-based learning management system designed to provide students with an online learning environment that allows them to access educational content and resources",
+      technologies: "UI Design | UI/UX Research",
+      figmalink:
+        "https://www.figma.com/proto/WbET2pgVnHu8t9J5KlBTK2/GRASPA-E-LEARNING-PLATFORM?page-id=0%3A1&node-id=48-2&viewport=227%2C229%2C0.03&scaling=scale-down&starting-point-node-id=48%3A2&show-proto-sidebar=1",
+
+      uiresearch:
+        "https://drive.google.com/file/d/1XLjKT29_EFT9DgnUNy5LmDDSE3Gg9IXK/view?usp=share_link",
+    },
+    {
+      id: 8,
+      title: "Credence",
+      img: IMG8,
+      category: "Mobile",
+
+      description:
+        "Credence is an eco-friendly mobile application that offers small businesses a platform to showcase their products and services, and facilitates sales through the generation of digital receipts instead of paper receipts.",
+      technologies: "React Native | UI/UX Research | Mobile | Agile ",
+      github: "https://github.com/Moyo-tech/Credence",
+      figmalink:
+        "https://www.figma.com/proto/Q8F1P3E4atctPsLj3hVpH9/CREDENCE?page-id=0%3A1&node-id=69-15&viewport=855%2C348%2C0.25&scaling=scale-down&starting-point-node-id=69%3A15&show-proto-sidebar=1",
+    },
+    {
+      id: 9,
+      title: "Hilto",
+      img: IMG9,
+      category: "Mobile",
+
+      description:
+        "The Hospital Booking App (Hilto) is a user-friendly platform designed to streamline the process of booking appointments with healthcare providers.",
+      technologies: "Flutter | Mobile | Agile ",
+      figmalink:
+        "https://www.figma.com/file/6ehQVTaJVACpkkNMZaa2Dq/Patient?node-id=0%3A1&t=dVyv4A3vF5xYA0zq-1",
+      github: "https://github.com/mzbhewtee/Mini_project2",
+    },
+    {
       id: 1,
       title: "Social Media Dashboard with Theme Switcher",
       img: IMG1,
@@ -61,7 +101,7 @@ const Portfolio = () => {
       description:
         "Fully responsive website that shows the testimonials of a business, built based on Figma design ",
       technologies: "CSS Grid | HTML ",
-      link: 'https://prismatic-palmier-e36078.netlify.app/',
+      link: "https://prismatic-palmier-e36078.netlify.app/",
       github: "https://github.com/Moyo-tech/frontend-social-proof-section",
     },
     {
@@ -89,43 +129,6 @@ const Portfolio = () => {
         "https://www.figma.com/proto/X0cYmzIshFlwQOr4luwBu4/ROOMIFY-HIGH-FIDELITY-APP?page-id=0%3A1&node-id=2-76&viewport=16%2C119%2C0.11&scaling=scale-down&starting-point-node-id=2%3A76&show-proto-sidebar=1",
       uiresearch:
         "https://drive.google.com/file/d/1FsD9LyBSXCzRbCIEH4zYf6W98hRcbIwx/view?usp=share_link",
-    },
-    {
-      id: 7,
-      title: "Graspa",
-      img: IMG7,
-      category: "Design",
-      description:
-        "Graspa is a cloud-based learning management system designed to provide students with an online learning environment that allows them to access educational content and resources",
-      technologies: "UI Design | UI/UX Research",
-      figmalink:
-        "https://www.figma.com/proto/WbET2pgVnHu8t9J5KlBTK2/GRASPA-E-LEARNING-PLATFORM?page-id=0%3A1&node-id=48-2&viewport=227%2C229%2C0.03&scaling=scale-down&starting-point-node-id=48%3A2&show-proto-sidebar=1",
-
-      uiresearch:
-        "https://drive.google.com/file/d/1XLjKT29_EFT9DgnUNy5LmDDSE3Gg9IXK/view?usp=share_link",
-    },
-    {
-      id: 8,
-      title: "Credence",
-      img: IMG8,
-      category: "Mobile",
-
-      description: "Credence is an eco-friendly mobile application that offers small businesses a platform to showcase their products and services, and facilitates sales through the generation of digital receipts instead of paper receipts.",
-      technologies: "React Native | UI/UX Research | Mobile | Agile ",
-      github: "https://github.com/Moyo-tech/Credence",
-      figmalink: "https://www.figma.com/proto/Q8F1P3E4atctPsLj3hVpH9/CREDENCE?page-id=0%3A1&node-id=69-15&viewport=855%2C348%2C0.25&scaling=scale-down&starting-point-node-id=69%3A15&show-proto-sidebar=1"
-    },
-    {
-      id: 9,
-      title: "Hilto",
-      img: IMG9,
-      category: "Mobile",
-
-      description:
-        "The Hospital Booking App (Hilto) is a user-friendly platform designed to streamline the process of booking appointments with healthcare providers.",
-      technologies: "Flutter | Mobile | Agile ",
-      figmalink: "https://www.figma.com/file/6ehQVTaJVACpkkNMZaa2Dq/Patient?node-id=0%3A1&t=dVyv4A3vF5xYA0zq-1",
-      github: "https://github.com/mzbhewtee/Mini_project2",
     },
   ];
   const handleCategoryClick = (newCategory) => {

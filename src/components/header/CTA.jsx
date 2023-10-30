@@ -4,7 +4,7 @@ import CV from '../../assets/moyo-cv.pdf';
 const CTA = () => {
   return (
     <div className="cta">
-      <a href={"https://drive.google.com/file/d/1kB0MtjlWoBM4RWweHUCvme-F2KN9tjY4/view?usp=sharing"} target= "_blank" className="btn">
+      <a href={"https://drive.google.com/file/d/1a579A46VTIsaco13TlmMZn5BcvV7gzRb/view?usp=sharing"} target= "_blank" className="btn">
         Download CV
       </a>
       <a href="#contact" className="btn btn-primary">

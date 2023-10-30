@@ -27,9 +27,9 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-<p>Hello, I'm Moyo, a highly skilled Frontend Engineer with a passion for designing and building exceptional web applications. With expertise in various frontend technologies and frameworks such as HTML, CSS, JavaScript, React, Vue, and Angular, I specialize in delivering solid, scalable, and intuitive frontend solutions that enhance user experiences.
+<p>Hello, I'm Moyo, a highly skilled Software Engineer with a passion for designing and building exceptional web applications. With expertise in various frontend technologies and frameworks such as HTML, CSS, JavaScript, React, Vue, and Angular, I specialize in delivering solid, scalable, and intuitive frontend solutions that enhance user experiences.
 <br></br><br></br>
-Currently, I am seeking a Frontend Engineer role to further hone my skills and gain more hands-on experience in the industry. My ability to transform complex designs into seamless and functional web applications has earned me a reputation as a go-to person for frontend solutions. Whether you're looking for a quick one-off project or something more long-term, I am confident that my skills and experience make me the ideal candidate to help bring your web applications to life. Let's connect and explore how we can work together to create exceptional digital experiences for your users. </p>
+Currently, I am seeking a Software Engineer New Grad role to further hone my skills and gain more hands-on experience in the industry. My ability to transform complex designs into seamless and functional web applications has earned me a reputation as a go-to person for software solutions. Whether you're looking for a quick one-off project or something more long-term, I am confident that my skills and experience make me the ideal candidate to help bring your web applications to life. Let's connect and explore how we can work together to create exceptional digital experiences for your users. </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
 
         </div>
